@@ -1,0 +1,52 @@
+html {
+  font-size: 16px;
+
+}
+
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.container h2 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #003C71;
+}
+
+section .dropdown {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 5rem;
+}
+footer {
+    background-color: #003C71;
+    color: white;
+  }
+i {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+  a {
+    color: white;
+  }
+a:hover {
+  color: none;
+}
