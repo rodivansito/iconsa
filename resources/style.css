@@ -71,6 +71,12 @@ a:hover {
 /* Media Queries */
 
 @media only screen and (max-width:576px){
+
+  .carousel-img-overlay {
+    top: 40%;
+  }
+
+
   .card-img-overlay p {
     display: none;
 
