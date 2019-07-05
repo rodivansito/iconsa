@@ -73,7 +73,7 @@ a:hover {
 @media only screen and (max-width:576px){
 
   .carousel-img-overlay {
-    top: 40%;
+    top: 20%;
   }
 
 
@@ -95,7 +95,7 @@ a:hover {
   }
 
   .carousel-caption {
-    top: 20%;
+    top: 40%;
   }
 
   .carousel-caption p {
