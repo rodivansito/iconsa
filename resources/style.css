@@ -24,11 +24,11 @@ html {
 .carousel-caption {
   top: 50%;
   bottom: auto;
-  
+
 }
 
 .card-img-overlay {
-  top: 65%;
+  top: 50%;
   bottom: auto;
 }
 
@@ -71,13 +71,40 @@ a:hover {
 /* Media Queries */
 
 @media only screen and (max-width:576px){
-  .card-text {
+  .card-img-overlay p {
     display: none;
 
+  }
+
+  .card-img-overlay h2 {
+    font-size: 1.3rem;
+  }
+
+  .card-img-overlay .btn {
+   font-size: 0.8rem;
   }
 
   .card-title {
 
   }
+
+  .carousel-caption {
+    top: 45%;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption h1 {
+  font-size: 1.3rem;
+  }
+
+  .carousel-caption .btn {
+  font-size: 0.8rem;
+
+  }
+
+
 
 }
