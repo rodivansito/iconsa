@@ -22,8 +22,9 @@ html {
 }
 
 .carousel-caption {
-  top: 65%;
+  top: 50%;
   bottom: auto;
+  
 }
 
 .card-img-overlay {

@@ -50,3 +50,12 @@ i {
 a:hover {
   color: none;
 }
+
+.categorias {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+a .nav-link {
+  color: #003C71;
+}
