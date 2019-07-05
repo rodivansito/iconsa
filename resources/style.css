@@ -28,7 +28,7 @@ html {
 }
 
 .card-img-overlay {
-  top: 50%;
+  top: 40%;
   bottom: auto;
 }
 
@@ -95,7 +95,7 @@ a:hover {
   }
 
   .carousel-caption {
-    top: 45%;
+    top: 20%;
   }
 
   .carousel-caption p {
