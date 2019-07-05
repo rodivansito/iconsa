@@ -107,6 +107,7 @@ a:hover {
   }
 
   .carousel-caption .btn {
+  display: none;
   font-size: 0.8rem;
 
   }
