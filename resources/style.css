@@ -34,8 +34,8 @@ p {
   margin-bottom: 2rem;
 }
 
-.card {
-  
+.card img {
+  opacity: 0.5;
 }
 
 .card-img-overlay {
@@ -92,7 +92,7 @@ a:hover {
 
 
   .card-img-overlay p {
-    display: none;
+    font-size: 0.75rem;
 
   }
 
