@@ -34,10 +34,8 @@ p {
   margin-bottom: 2rem;
 }
 
-.carousel-caption {
-  top: 50%;
-  bottom: auto;
-
+.card {
+  
 }
 
 .card-img-overlay {

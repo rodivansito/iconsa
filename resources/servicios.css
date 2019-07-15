@@ -14,9 +14,10 @@ html {
 }
 
 .IngServices li {
-
- font-size: 2rem;
+ padding: 1.5rem;
+ font-size: 1.5rem;
  font-family: 'Montserrat', sans-serif;
+ list-style: circle;
 
 }
 
