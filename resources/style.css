@@ -116,6 +116,10 @@ a:hover {
 @media only screen and (max-width:576px){
 
 
+  .card-img-overlay {
+    top: 40%;
+  }
+
   .card-img-overlay p {
     font-size: 0.75rem;
 
