@@ -115,10 +115,6 @@ a:hover {
 
 @media only screen and (max-width:576px){
 
-  .carousel-caption {
-    top: 10%;
-  }
-
 
   .card-img-overlay p {
     font-size: 0.75rem;
@@ -135,6 +131,10 @@ a:hover {
 
   .card-title {
 
+  }
+
+  .btn {
+    font-size: 80%;
   }
 
   .carousel-caption {
