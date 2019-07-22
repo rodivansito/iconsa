@@ -58,7 +58,7 @@ ul {
   list-style-type: circle;
 }
 
-li { margin-top: 1rem;
+ footer li { margin-top: 1rem;
   color: #003C71;
   font-weight: bold;
   margin-bottom: 1rem;}
@@ -68,6 +68,28 @@ footer {
     background-color: #003C71;
     color: white;
   }
+  .container {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.last p {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.last a {
+  color: white;
+  font-size: 0.75rem;
+}
 i {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -79,7 +101,14 @@ a:hover {
   color: none;
 }
 
+.language {
+  color: gray;
+  list-style: none;
+}
 
+.language a {
+  color: gray;
+}
 
 
 /* Media Queries */
