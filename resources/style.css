@@ -36,11 +36,15 @@ p {
 
 .card img {
   opacity: 0.5;
+  
+
+
 }
 
 .card-img-overlay {
   top: 50%;
   bottom: auto;
+  max-height: 270px;
 }
 
 

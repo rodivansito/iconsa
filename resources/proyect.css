@@ -59,3 +59,9 @@ a:hover {
 a .nav-link {
   color: #003C71;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
