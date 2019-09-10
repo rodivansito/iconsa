@@ -9,47 +9,61 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
      <link rel="stylesheet" href="../resources/ProyectInfo.css" type="text/css">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#e3f2fd;">
-      <a class="navbar-brand" href="#">
-      <img src="../resources/Multimedia/IconsaLogo(header).png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Acerca</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Servicios
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../Servicios/ingenieria.html">Ingeniería</a>
-              <a class="dropdown-item" href="../Servicios/construccion.html">Construcción</a>
-              <a class="dropdown-item" href="../Servicios/Gestion.html">Gestion de proyectos</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./proyectos.html">Proyectos</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    </header>
   </head>
   <body>
+
+<!--Header and Navigation-->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#e3f2fd;">
+    <a class="navbar-brand" href="#">
+    <img src="../resources/Multimedia/IconsaLogo(header).png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../Servicios/ingenieria.html">Ingeniería</a>
+            <a class="dropdown-item" href="../Servicios/construccion.html">Construcción</a>
+            <a class="dropdown-item" href="../Servicios/Gestion.html">Gestion de proyectos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./proyectos.html">Proyectos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+
+  <!-- Main -->
+
+
+  <!-- Titulo -->
+
+  <main>
     <section>
       <div class="container text-center">
         <div class="titulo">
           <h1>Estación Amarre</h1>
         </div>
 
+
+  <div class="row">
+    <div class="col-sm-6">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,14 +90,20 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <ul>
-        <li>Fecha del proyecto: </li>
-        <li>Ubicación: Lado oeste del canal de Panamá, frente a Esclusas de Pedro Miguel</li>
-        <li>Cliente: Autoridad de Canal de Panamá</li>
-      </ul>
-      <p>Suministro y Colocación de 725 Pilotes tubulares de acero, fabricación de elementos de concreto prefabricado, construcción de dado completo, suministro e instalación de unidades de desenganche, fundaciones de hormigon reforzado con anclajes de suelo.</p>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="card">
+  <div class="card-body">
+    <ul>
+      <li>Fecha del proyecto: </li>
+      <li>Ubicación: Lado oeste del canal de Panamá, frente a Esclusas de Pedro Miguel</li>
+      <li>Cliente: Autoridad de Canal de Panamá</li>
+      <li>Descripción:Suministro y Colocación de 725 Pilotes tubulares de acero, fabricación de elementos de concreto prefabricado, construcción de dado completo, suministro e instalación de unidades de desenganche, fundaciones de hormigon reforzado con anclajes de suelo.</li>
+    </ul>
+  </div>
+</div>
+
     </div>
   </div>
   </section>
@@ -95,15 +115,18 @@
   </div>
   </div>
   </section>
-  </body>
+  </main>
   <footer>
-    <div class="contact">
-    <a href="tel:5072711824"><i class="fas fa-phone">+507 2711824</i></a>
-    <a href="mailto:info@iconsanet.com">info@iconsanet.com<i class="fas fa-envelope"></i></a>
-    <i class="fas fa-map-marker-alt">Via Tocumen, Plaza Fortuna (Al lado de Plaza Conquistador) Local 74M Panamá, Rep. de Panamá; Apartado Postal 0843-03089.</i>
-    </div>
-  </footer>
-  
+  <div class="contact">
+  <a href="tel:5072711824"><i class="fas fa-phone">+507 2711824</i></a>
+  <a href="mailto:info@iconsanet.com">info@iconsanet.com<i class="fas fa-envelope"></i></a>
+  <i class="fas fa-map-marker-alt">Via Tocumen, Plaza Fortuna (Al lado de Plaza Conquistador) Local 74M Panamá, Rep. de Panamá; Apartado Postal 0843-03089.</i>
+  </div>
+</footer>
+  </body>
+
+
+
   <script type="text/javascript">
  var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"45feb1bc8285ac81fd6139493c2a623e1edc1c31df219e6a830754f1399169911a2010ab7b6727677d37b27582c0e9c4", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
  </script>
