@@ -1,30 +1,7 @@
+
 html {
   font-size: 16px;
-
-}
-
-
-.container {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-}
-.container h2 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
-h2 {
-  font-size: 1rem;
-}
-
-.btn {
-  background-color: #003C71;
-}
-
-section .dropdown {
-  margin-left: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  font-family: 'RNS SANZ', sans-serif;
 }
 
 .contact {
@@ -36,7 +13,18 @@ section .dropdown {
   padding-bottom: 2rem;
   margin-left: 5rem;
 }
+
+.IngServices li {
+ padding: 1.5rem;
+ font-size: 1.5rem;
+ font-family: 'Montserrat', sans-serif;
+ list-style: circle;
+
+}
+
+
 footer {
+
     background-color: #003C71;
     color: white;
   }
@@ -51,15 +39,23 @@ a:hover {
   color: none;
 }
 
-.categorias {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.card-img-overlay {
+  top: 30%;
+  bottom: auto;
+}
+.btn {
+  background-color: #003C71;
 }
 
-a .nav-link {
-  color: #003C71;
+.btn:hover {
+  background-color: #FCC42C;
 }
 
+h2 {
+
+  background-color: #FCC42C;
+  font-family: 'RNS SANZ', sans-serif;
+}
 
 
 
