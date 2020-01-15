@@ -17,10 +17,24 @@ ul {
   color: #003C71;
 }
 
+.banner img {
+  border-radius: 20%;
+}
+
+.banner .card {
+  margin-top: 4rem;
+  margin-left: 5rem;
+}
+
+.afiliaciones {
+  margin-left: 3rem;
+}
+
 .row {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+
 .btn {
   background-color: #003C71;
 }
@@ -67,6 +81,7 @@ footer {
     background-color: #003C71;
     color: white;
   }
+
 i {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -85,4 +100,12 @@ max-width: ;
 
 .card-body {
 font-weight: bold;
+}
+
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
 }

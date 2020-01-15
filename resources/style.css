@@ -43,10 +43,25 @@ ol {
 }
 
 .card img {
-  opacity: 0.5;
+  opacity: 0.7;
+}
 
+.banner .card-img-overlay {
+  top: 15%;
+  bottom: auto;
+  max-height: 200px;
+}
 
+.construccion .card-img-overlay {
+  top: 5%;
+  bottom: auto;
+  max-height: 100px;
+}
 
+.ingenieria .card-img-overlay {
+  top: 5%;
+  bottom: auto;
+  max-height: 200px;
 }
 
 .card-img-overlay {
