@@ -8,6 +8,21 @@ html {
 h1 {
   font-size: 3rem;
   font-family: 'RNS SANZ', sans-serif;
+  font-weight: bold;
+}
+
+#title {
+  color: blue;
+  margin-top: 50px;
+}
+
+#navbarSupportedContent {
+  margin-left: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.dropdown-menu {
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -19,7 +34,13 @@ p {
    font-family: 'RNS SANZ', sans-serif;
 }
 
+.card-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'RNS SANZ', sans-serif;
 
+
+}
 
 ol {
   font-size: 1rem;
@@ -137,6 +158,14 @@ a:hover {
   color: gray;
 }
 
+navbar-nav {
+margin-left: 2rem;
+font-size: 1.5rem;
+
+}
+.icon {
+  padding-left: 1.5rem;
+}
 
 /* Media Queries */
 
