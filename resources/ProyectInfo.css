@@ -9,6 +9,24 @@ h1 {
   color: #003C71;
 }
 
+.navbar-brand img {
+
+height: 200px;
+width: 263px;
+
+
+}
+
+#navbarSupportedContent {
+  margin-left: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.dropdown-menu {
+  font-size: 1.5rem;
+}
+
+
 ul {
   list-style: none;
   font-size: 1rem;
