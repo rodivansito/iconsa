@@ -3,6 +3,17 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
+#navbarSupportedContent {
+  margin-left: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.dropdown-menu {
+  font-size: 1.5rem;
+}
+
 .contact {
   display: flex;
   justify-content: space-around;
